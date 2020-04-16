@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Loading a static image</title>
+        <link rel = "stylesheet" href="{% static "css/my_style.css" %}" />
+    </head>
+    <body>
+        <img src = {%static "images/images.jpg" %} />
+        <h3><em>This is a static image loaded using Django :)</em></h3>
+
+    </body>
+</html>
