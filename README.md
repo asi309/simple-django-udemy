@@ -1,0 +1,1 @@
+This is the project folder for project in the course "Python and Django Full Stack Web Developer BootCamp" by Jose Portilla.
