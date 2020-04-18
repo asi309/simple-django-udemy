@@ -1,3 +1,7 @@
-h3{
-    color: #808080;
+h3, h4{
+    color: royalblue;
+}
+table, th, td{
+    border: 2px solid #333;
+
 }
