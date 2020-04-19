@@ -21,4 +21,5 @@ urlpatterns = [
     path('template2/', views.index2, name='index2'),
     path('loading_static/', views.stat_load, name="static1"),
     path('dj-mtv/', views.mod_index, name="django-mtv"),
+    path('form-basics/', views.basic_form, name="basic-form"),
 ]
