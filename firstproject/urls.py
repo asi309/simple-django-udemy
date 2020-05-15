@@ -15,10 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from firstapp import views
+from level_five import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', views.index, name='index'),
     path('firstapp/', include('firstapp.urls')),
     path('pro-two/', include('pro2.urls')),
+    path('level-four/', include('level_four.urls')),
+    path('level-five/', include('level_five.urls')),
 ]

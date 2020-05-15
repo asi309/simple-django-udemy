@@ -17,6 +17,8 @@ from django.urls import path
 from pro2 import views
 
 urlpatterns = [
-    path('', views.home, name='homepage'),
+    path('', views.redirect_home, name='root_redirect'),
+    path('sign-in/', views.sign_in_form, name='sign-in'),
     path('users/', views.index, name='index'),
+    path('add-user/', views.add, name='add_user'),
 ]
